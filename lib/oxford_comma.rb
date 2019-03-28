@@ -1,3 +1,5 @@
+require 'pry'
+
 def oxford_comma(number)
   if number.size == 1 
       number.join
@@ -7,6 +9,7 @@ def oxford_comma(number)
        counter = 0 
        new_array = []
        number.each {|word| 
+       binding.pry
        if counter < number.length - 1 
        new_array << word
        counter += 1 
