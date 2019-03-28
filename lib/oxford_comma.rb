@@ -12,7 +12,7 @@ def oxford_comma(number)
        counter += 1 
       else
         new_array << "and #{word}"
-      end
+      end}
     #number[-1] = "and #{number[-1]}"
     #number.join(", ")
     new_array.join(", ")
